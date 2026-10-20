@@ -1,204 +1,430 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Gavin Vincent Subrata</title>
-  <meta name="claude:viewport-fit-sides" content="cover">
-  <meta name="description" content="UI/UX design portfolio of Gavin Vincent Subrata, Digital Media Design student at RMIT University, Melbourne.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@600&display=swap">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header class="nav">
-  <div class="wrap">
-    <div class="bar">
-      <a class="logo" href="#home" data-nav="home" aria-label="Home, Gavin Vincent Subrata"><span class="logo-mark">GVS</span></a>
-      <nav aria-label="Pages">
-        <ul id="menu">
-          <li><a href="#home" data-nav="home">Home</a></li>
-          <li><a href="#specialisation" data-nav="specialisation">Specialisation</a></li>
-          <li><a href="#about" data-nav="about">About</a></li>
-          <li><a href="#contact" data-nav="contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-
-<main id="top">
-  <section class="page" id="home">
-  <div class="hero">
-    <div class="wrap">
-      <div class="hero-inner">
-        <div class="hello"><span class="status-dot" aria-hidden="true"></span><span class="label">UI/UX Designer · Melbourne · Open to internships</span></div>
-        <h1>I design interfaces that feel like a <span class="squiggle">friendly nudge<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 30 0, 50 12, 80 6 S 140 0, 198 7" fill="none" stroke="var(--coral)" stroke-width="4" stroke-linecap="round"/></svg></span>.</h1>
-
-        <div class="canvas" role="img" aria-label="Screens from three of Gavin's projects laid out like a design file, with collaborator cursors and a sticky note.">
-          <div class="note">less clutter,<br>more personality!</div>
-          <figure class="board b-desk selected">
-            <figcaption>Study Space / Daily Goals — 1440 × 1024</figcaption>
-            <img src="assets/study-daily.png" alt="">
-            <span class="handle" style="left:-4px;bottom:-4px"></span>
-            <span class="handle" style="right:-4px;bottom:-4px"></span>
-          </figure>
-          <figure class="board b-p1">
-            <figcaption>Pantry / Plan</figcaption>
-            <img src="assets/meal-plan.png" alt="">
-          </figure>
-          <figure class="board b-p2">
-            <figcaption>Speak / Profile</figcaption>
-            <img src="assets/speak-profile.png" alt="">
-          </figure>
-          <div class="cursor" aria-hidden="true">
-            <svg viewBox="0 0 20 20"><path d="M2 2 L17 9 L10 11 L7 18 Z" fill="var(--coral)" stroke="#1A1C29" stroke-width="1.2" stroke-linejoin="round"/></svg>
-            <span>Gavin</span>
-          </div>
-          <div class="cursor two" aria-hidden="true">
-            <svg viewBox="0 0 20 20"><path d="M2 2 L17 9 L10 11 L7 18 Z" fill="var(--sage)" stroke="#1A1C29" stroke-width="1.2" stroke-linejoin="round"/></svg>
-            <span>You?</span>
-          </div>
-        </div>
-
-        <p class="hero-lede">Hi, I'm <strong>Gavin Vincent Subrata</strong>, a Digital Media Design student at <strong>RMIT University</strong>. I turn everyday routines like studying, cooking and speaking up into apps that are clear to use and a little bit fun to come back to.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#specialisation">What I do →</a>
-          <a class="btn btn-ghost" href="#contact">Say hello</a>
-        </div>
-        <div class="quick-facts">
-          <span>Bachelor of Digital Media Design, 2024–2027</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Gavin Vincent Subrata</title>
+    <meta name="claude:viewport-fit-sides" content="cover" />
+    <meta
+      name="description"
+      content="UI/UX design portfolio of Gavin Vincent Subrata, Digital Media Design student at RMIT University, Melbourne."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="wrap">
+        <div class="bar">
+          <a
+            class="logo"
+            href="#home"
+            data-nav="home"
+            aria-label="Home, Gavin Vincent Subrata"
+            ><span class="logo-mark">GVS</span></a
+          >
+          <nav aria-label="Pages">
+            <ul id="menu">
+              <li><a href="#home" data-nav="home">Home</a></li>
+              <li>
+                <a href="#specialisation" data-nav="specialisation"
+                  >Specialisation</a
+                >
+              </li>
+              <li><a href="#about" data-nav="about">About</a></li>
+              <li><a href="#contact" data-nav="contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </div>
-  </section>
+    </header>
 
-  <section id="specialisation" class="page section" hidden>
-    <div class="wrap">
-      <div class="section-head">
-        <div class="kicker"><span class="chip">01</span><span class="label">My specialisation</span></div>
-        <h2>UI/UX first, with a visual designer's eye.</h2>
-        <p>My focus is interface and experience design for mobile and web. Branding, motion and video sit around that core, so the products I design look considered as well as working well.</p>
-      </div>
+    <main id="top">
+      <section class="page" id="home">
+        <div class="hero">
+          <div class="wrap">
+            <div class="hero-inner">
+              <div class="hello">
+                <span class="status-dot" aria-hidden="true"></span
+                ><span class="label"
+                  >UI/UX Designer · Melbourne · Open to internships</span
+                >
+              </div>
+              <h1>
+                I design interfaces that feel like a
+                <span class="squiggle"
+                  >friendly nudge<svg
+                    viewBox="0 0 200 12"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M2 8 C 30 0, 50 12, 80 6 S 140 0, 198 7"
+                      fill="none"
+                      stroke="var(--coral)"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                    /></svg></span
+                >.
+              </h1>
 
-      <div class="spec-grid">
-        <article class="spec core">
-          <span class="label">Core</span>
-          <h3>UI/UX &amp; prototyping</h3>
-          <p>User flows, wireframes and high-fidelity screens in Figma, linked into clickable prototypes. I design for real routines and test whether people can get through them without thinking twice.</p>
-        </article>
-        <article class="spec">
-          <span class="label">Supporting</span>
-          <h3>Visual design &amp; branding</h3>
-          <p>Colour systems, type and illustration that give each product its own personality. I designed merchandise and brand pieces for Echoverse Band.</p>
-          <div class="evidence">
-            <a class="tag" href="#about">Echoverse Band</a>
-          </div>
-        </article>
-        <article class="spec">
-          <span class="label">Supporting</span>
-          <h3>Motion, video &amp; front-end</h3>
-          <p>After Effects, Premiere Pro and VFX for storytelling, plus HTML, CSS and JavaScript so I can talk to developers in their language.</p>
-          <div class="evidence">
-            <a class="tag" href="#home">This website</a>
-          </div>
-        </article>
-      </div>
-      <nav class="pager" aria-label="Page navigation"><a class="prev" href="#home"><span class="label">← Previous</span><strong>Home</strong></a><a class="next" href="#about"><span class="label">Next →</span><strong>About me</strong></a></nav>
-    </div>
-  </section>
+              <div
+                class="canvas"
+                role="img"
+                aria-label="Screens from three of Gavin's projects laid out like a design file, with collaborator cursors and a sticky note."
+              >
+                <div class="note">less clutter,<br />more personality!</div>
+                <figure class="board b-desk selected">
+                  <figcaption>
+                    Study Space / Daily Goals — 1440 × 1024
+                  </figcaption>
+                  <img src="assets/study-daily.png" alt="" />
+                  <span class="handle" style="left: -4px; bottom: -4px"></span>
+                  <span class="handle" style="right: -4px; bottom: -4px"></span>
+                </figure>
+                <figure class="board b-p1">
+                  <figcaption>Pantry / Plan</figcaption>
+                  <img src="assets/meal-plan.png" alt="" />
+                </figure>
+                <figure class="board b-p2">
+                  <figcaption>Speak / Profile</figcaption>
+                  <img src="assets/speak-profile.png" alt="" />
+                </figure>
+                <div class="cursor" aria-hidden="true">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M2 2 L17 9 L10 11 L7 18 Z"
+                      fill="var(--coral)"
+                      stroke="#1A1C29"
+                      stroke-width="1.2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Gavin</span>
+                </div>
+                <div class="cursor two" aria-hidden="true">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M2 2 L17 9 L10 11 L7 18 Z"
+                      fill="var(--sage)"
+                      stroke="#1A1C29"
+                      stroke-width="1.2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>You?</span>
+                </div>
+              </div>
 
-  <section id="about" class="page section" hidden>
-    <div class="wrap">
-      <div class="section-head">
-        <div class="kicker"><span class="chip">02</span><span class="label">About me</span></div>
-        <h2>From Tasikmalaya to Melbourne, always close to people.</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-copy">
-          <p>I grew up in West Java, Indonesia, and moved to Melbourne to study Digital Media Design at RMIT. I love craftsmanship, visual storytelling and the small details that make an experience memorable.</p>
-          <p>Most of my work history is face to face with customers. Guiding clients through high-value purchases at a gold store, and looking after guests on a busy diner floor, taught me to read what people need before they say it. That's the habit I bring to UX.</p>
-          <div class="toolbox">
-            <div><span class="label">Visual</span><div class="chips"><span>Photoshop</span><span>Illustrator</span></div></div>
-            <div><span class="label">Interactive</span><div class="chips"><span>Figma</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
-            <div><span class="label">Motion</span><div class="chips"><span>After Effects</span><span>Premiere Pro</span></div></div>
-            <div><span class="label">Sound</span><div class="chips"><span>Reaper</span><span>Audition</span></div></div>
-            <div><span class="label">Game engine</span><div class="chips"><span>Unity</span></div></div>
-            <div><span class="label">Languages</span><div class="chips"><span>English</span><span>Indonesian</span></div></div>
+              <p class="hero-lede">
+                Hi, I'm <strong>Gavin Vincent Subrata</strong>, a Digital Media
+                Design student at <strong>RMIT University</strong>. I turn
+                everyday routines like studying, cooking and speaking up into
+                apps that are clear to use and a little bit fun to come back to.
+              </p>
+              <div class="cta-row">
+                <a class="btn btn-primary" href="#specialisation"
+                  >What I do →</a
+                >
+                <a class="btn btn-ghost" href="#contact">Say hello</a>
+              </div>
+              <div class="quick-facts">
+                <span>Bachelor of Digital Media Design, 2024–2027</span>
+              </div>
+            </div>
           </div>
         </div>
-        <ol class="timeline" reversed aria-label="Experience">
-          <li><span class="when">Sep 2025 – present · Melbourne</span><strong>Front of House, Operator Diner</strong><p>Looking after guests in a fast-paced service, making sure everyone feels welcome.</p></li>
-          <li><span class="when">2024 – 2027 · Melbourne</span><strong>Bachelor of Digital Media Design, RMIT University</strong><p>UI/UX, interaction, motion, sound and visual design.</p></li>
-          <li><span class="when">2024 · Bandung</span><strong>Merchandise &amp; Brand Designer, Echoverse Band</strong><p>Brand and merchandise design for the band's Sagarmatha event.</p></li>
-          <li><span class="when">2022 – 2024 · Tasikmalaya</span><strong>Retail Assistant, Toko Mas Surabaya</strong><p>Guided clients through meaningful, high-value jewellery purchases with patience and care.</p></li>
-        </ol>
-      </div>
-      <nav class="pager" aria-label="Page navigation"><a class="prev" href="#specialisation"><span class="label">← Previous</span><strong>Specialisation</strong></a><a class="next" href="#contact"><span class="label">Next →</span><strong>Contact</strong></a></nav>
-    </div>
-  </section>
+      </section>
 
-  <section id="contact" class="page contact" hidden>
-    <div class="wrap">
-      <div class="contact-card">
-        <span class="label" style="color: rgba(255,255,255,.8)">03 · Let&apos;s work together</span>
-        <h2>Got a product that needs a friendlier face?</h2>
-        <p>I'm looking for UI/UX internships and junior design roles in Melbourne and remote. I'd love to hear about what you're building.</p>
-        <div class="contact-row">
-          <span class="email-pill"><span class="addr" id="email">gavinvincentsubrata@gmail.com</span><button type="button" id="copy-email">Copy</button></span>
-          <a class="btn btn-light" href="https://www.linkedin.com/in/gavin-vincent-subrata-744b53430/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <section id="specialisation" class="page section" hidden>
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker">
+              <span class="chip">01</span
+              ><span class="label">My specialisation</span>
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>
+              My focus is interface and experience design for mobile and web.
+              Branding, motion and video sit around that core, so the products I
+              design look considered as well as working well.
+            </p>
+          </div>
+
+          <div class="spec-grid">
+            <article class="spec core">
+              <span class="label">Core</span>
+              <h3>UI/UX &amp; prototyping</h3>
+              <p>
+                User flows, wireframes and high-fidelity screens in Figma,
+                linked into clickable prototypes. I design for real routines and
+                test whether people can get through them without thinking twice.
+              </p>
+            </article>
+            <article class="spec">
+              <span class="label">Supporting</span>
+              <h3>Visual design &amp; branding</h3>
+              <p>
+                Colour systems, type and illustration that give each product its
+                own personality. I designed merchandise and brand pieces for
+                Echoverse Band.
+              </p>
+              <div class="evidence">
+                <a class="tag" href="#about">Echoverse Band</a>
+              </div>
+            </article>
+            <article class="spec">
+              <span class="label">Supporting</span>
+              <h3>Motion, video &amp; front-end</h3>
+              <p>
+                After Effects, Premiere Pro and VFX for storytelling, plus HTML,
+                CSS and JavaScript so I can talk to developers in their
+                language.
+              </p>
+              <div class="evidence">
+                <a class="tag" href="#home">This website</a>
+              </div>
+            </article>
+          </div>
+          <nav class="pager" aria-label="Page navigation">
+            <a class="prev" href="#home"
+              ><span class="label">← Previous</span><strong>Home</strong></a
+            ><a class="next" href="#about"
+              ><span class="label">Next →</span><strong>About me</strong></a
+            >
+          </nav>
         </div>
-        <svg class="doodle" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" fill="none" stroke="#fff" stroke-width="10"/><path d="M20 100 H180 M100 20 V180 M45 45 C 80 80, 80 120, 45 155 M155 45 C 120 80, 120 120, 155 155" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/></svg>
+      </section>
+
+      <section id="about" class="page section" hidden>
+        <div class="wrap">
+          <div class="section-head">
+            <div class="kicker">
+              <span class="chip">02</span><span class="label">About me</span>
+            </div>
+            <h2>From Tasikmalaya to Melbourne, always close to people.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I grew up in West Java, Indonesia, and moved to Melbourne to
+                study Digital Media Design at RMIT. I love craftsmanship, visual
+                storytelling and the small details that make an experience
+                memorable.
+              </p>
+              <p>
+                Most of my work history is face to face with customers. Guiding
+                clients through high-value purchases at a gold store, and
+                looking after guests on a busy diner floor, taught me to read
+                what people need before they say it. That's the habit I bring to
+                UX.
+              </p>
+              <div class="toolbox">
+                <div>
+                  <span class="label">Visual</span>
+                  <div class="chips">
+                    <span>Photoshop</span><span>Illustrator</span>
+                  </div>
+                </div>
+                <div>
+                  <span class="label">Interactive</span>
+                  <div class="chips">
+                    <span>Figma</span><span>HTML</span><span>CSS</span
+                    ><span>JavaScript</span>
+                  </div>
+                </div>
+                <div>
+                  <span class="label">Motion</span>
+                  <div class="chips">
+                    <span>After Effects</span><span>Premiere Pro</span>
+                  </div>
+                </div>
+                <div>
+                  <span class="label">Sound</span>
+                  <div class="chips">
+                    <span>Reaper</span><span>Audition</span>
+                  </div>
+                </div>
+                <div>
+                  <span class="label">Game engine</span>
+                  <div class="chips"><span>Unity</span></div>
+                </div>
+                <div>
+                  <span class="label">Languages</span>
+                  <div class="chips">
+                    <span>English</span><span>Indonesian</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="timeline" reversed aria-label="Experience">
+              <li>
+                <span class="when">Sep 2025 – present · Melbourne</span
+                ><strong>Front of House, Operator Diner</strong>
+                <p>
+                  Looking after guests in a fast-paced service, making sure
+                  everyone feels welcome.
+                </p>
+              </li>
+              <li>
+                <span class="when">2024 – 2027 · Melbourne</span
+                ><strong
+                  >Bachelor of Digital Media Design, RMIT University</strong
+                >
+                <p>UI/UX, interaction, motion, sound and visual design.</p>
+              </li>
+              <li>
+                <span class="when">2024 · Bandung</span
+                ><strong
+                  >Merchandise &amp; Brand Designer, Echoverse Band</strong
+                >
+                <p>
+                  Brand and merchandise design for the band's Sagarmatha event.
+                </p>
+              </li>
+              <li>
+                <span class="when">2022 – 2024 · Tasikmalaya</span
+                ><strong>Retail Assistant, Toko Mas Surabaya</strong>
+                <p>
+                  Guided clients through meaningful, high-value jewellery
+                  purchases with patience and care.
+                </p>
+              </li>
+            </ol>
+          </div>
+          <nav class="pager" aria-label="Page navigation">
+            <a class="prev" href="#specialisation"
+              ><span class="label">← Previous</span
+              ><strong>Specialisation</strong></a
+            ><a class="next" href="#contact"
+              ><span class="label">Next →</span><strong>Contact</strong></a
+            >
+          </nav>
+        </div>
+      </section>
+
+      <section id="contact" class="page contact" hidden>
+        <div class="wrap">
+          <div class="contact-card">
+            <span class="label" style="color: rgba(255, 255, 255, 0.8)"
+              >03 · Let&apos;s work together</span
+            >
+            <h2>Got a product that needs a friendlier face?</h2>
+            <p>
+              I'm looking for UI/UX internships and junior design roles in
+              Melbourne and remote. I'd love to hear about what you're building.
+            </p>
+            <div class="contact-row">
+              <span class="email-pill"
+                ><span class="addr" id="email"
+                  >gavinvincentsubrata@gmail.com</span
+                ><button type="button" id="copy-email">Copy</button></span
+              >
+              <a
+                class="btn btn-light"
+                href="https://www.linkedin.com/in/gavin-vincent-subrata-744b53430/"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn ↗</a
+              >
+            </div>
+            <svg class="doodle" viewBox="0 0 200 200" aria-hidden="true">
+              <circle
+                cx="100"
+                cy="100"
+                r="80"
+                fill="none"
+                stroke="#fff"
+                stroke-width="10"
+              />
+              <path
+                d="M20 100 H180 M100 20 V180 M45 45 C 80 80, 80 120, 45 155 M155 45 C 120 80, 120 120, 155 155"
+                fill="none"
+                stroke="#fff"
+                stroke-width="10"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <nav class="pager" aria-label="Page navigation">
+            <a class="prev" href="#about"
+              ><span class="label">← Previous</span><strong>About me</strong></a
+            ><a class="next" href="#home"
+              ><span class="label">Back to start →</span
+              ><strong>Home</strong></a
+            >
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <span>© 2026 Gavin Vincent Subrata</span>
+        <span>UI/UX Designer · Melbourne</span>
       </div>
-      <nav class="pager" aria-label="Page navigation"><a class="prev" href="#about"><span class="label">← Previous</span><strong>About me</strong></a><a class="next" href="#home"><span class="label">Back to start →</span><strong>Home</strong></a></nav>
-    </div>
-  </section>
-</main>
+    </footer>
 
-<footer>
-  <div class="wrap">
-    <span>© 2026 Gavin Vincent Subrata</span>
-    <span>UI/UX Designer · Melbourne</span>
-  </div>
-</footer>
+    <script>
+      (function () {
+        var pages = Array.prototype.slice.call(
+          document.querySelectorAll(".page"),
+        );
+        var navLinks = document.querySelectorAll("[data-nav]");
+        function route() {
+          var id = location.hash.replace("#", "") || "home";
+          var target = document.getElementById(id);
+          if (!target || !target.classList.contains("page")) id = "home";
+          pages.forEach(function (p) {
+            p.hidden = p.id !== id;
+          });
+          navLinks.forEach(function (a) {
+            if (a.dataset.nav === id) a.setAttribute("aria-current", "page");
+            else a.removeAttribute("aria-current");
+          });
+          var current = document.querySelector('#menu a[aria-current="page"]');
+          if (current)
+            current.scrollIntoView({
+              block: "nearest",
+              inline: "center",
+              behavior: "instant",
+            });
+          window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        }
+        window.addEventListener("hashchange", route);
+        route();
 
-<script>
-  (function () {
-    var pages = Array.prototype.slice.call(document.querySelectorAll('.page'));
-    var navLinks = document.querySelectorAll('[data-nav]');
-    function route() {
-      var id = location.hash.replace('#', '') || 'home';
-      var target = document.getElementById(id);
-      if (!target || !target.classList.contains('page')) id = 'home';
-      pages.forEach(function (p) { p.hidden = p.id !== id; });
-      navLinks.forEach(function (a) {
-        if (a.dataset.nav === id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
-      });
-      var current = document.querySelector('#menu a[aria-current="page"]');
-      if (current) current.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'instant' });
-      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-    }
-    window.addEventListener('hashchange', route);
-    route();
-
-    var copyBtn = document.getElementById('copy-email');
-    copyBtn.addEventListener('click', function () {
-      var text = document.getElementById('email').textContent;
-      function selectIt() {
-        var r = document.createRange(); r.selectNodeContents(document.getElementById('email'));
-        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-        copyBtn.textContent = 'Selected';
-      }
-      try {
-        navigator.clipboard.writeText(text).then(function () { copyBtn.textContent = 'Copied'; }, selectIt);
-      } catch (e) { selectIt(); }
-      setTimeout(function () { copyBtn.textContent = 'Copy'; }, 2000);
-    });
-  })();
-</script>
-
-</body>
+        var copyBtn = document.getElementById("copy-email");
+        copyBtn.addEventListener("click", function () {
+          var text = document.getElementById("email").textContent;
+          function selectIt() {
+            var r = document.createRange();
+            r.selectNodeContents(document.getElementById("email"));
+            var s = window.getSelection();
+            s.removeAllRanges();
+            s.addRange(r);
+            copyBtn.textContent = "Selected";
+          }
+          try {
+            navigator.clipboard.writeText(text).then(function () {
+              copyBtn.textContent = "Copied";
+            }, selectIt);
+          } catch (e) {
+            selectIt();
+          }
+          setTimeout(function () {
+            copyBtn.textContent = "Copy";
+          }, 2000);
+        });
+      })();
+    </script>
+  </body>
 </html>
